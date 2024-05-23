@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Calculadora</h1>
+    </div>
+    <div class="calculadora">
+        <div class="result"></div>
+        <div class="buttons">
+            <button class="bg-gray" onclick="clean()">C</button>
+            <button class="bg-gray" onclick="back()"><</button>
+            <button class="bg-gray" onclick="insert('%')">%</button>
+            <button class="bg-orange" onclick="insert('/')">÷</button>
+
+            <button class="bg-light-gray" onclick="insert('7')">7</button>
+            <button class="bg-light-gray" onclick="insert('8')">8</button>
+            <button class="bg-light-gray" onclick="insert('9')">9</button>
+            <button class="bg-orange" onclick="insert('*')">x</button>
+
+            <button class="bg-light-gray" onclick="insert('4')">4</button>
+            <button class="bg-light-gray" onclick="insert('5')">5</button>
+            <button class="bg-light-gray" onclick="insert('6')">6</button>
+            <button class="bg-orange" onclick="insert('-')">-</button>
+
+            <button class="bg-light-gray" onclick="insert('1')">1</button>
+            <button class="bg-light-gray" onclick="insert('2')">2</button>
+            <button class="bg-light-gray" onclick="insert('3')">3</button>
+            <button class="bg-orange" onclick="insert('+')">+</button>
+
+            <button class="bg-light-gray button-zero" onclick="insert('0')">0</button>
+            <button class="bg-light-gray" onclick="insert(',')">,</button>
+            <button class="bg-orange" onclick="calcular()">=</button>
+        </div>
+    </div>
+    <div class="creditos">
+        <p>Desenvolvido por <a href="https://raposo.dev.br/sobre/" target="_blank">Jefferson Raposo</a></p>
+        <div class="contatos">
+            <a href="https://www.linkedin.com/in/jefferson-raposo/" target="_blank"><img src="./assets/icons/icons8-linkedin-240.png" alt="Linkedin"></a>
+            <a href="https://github.com/jeffersonraposo" target="_blank"><img src="./assets/icons/icons8-github-250.png" alt="GitHub"></a>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
